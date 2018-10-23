@@ -31,13 +31,13 @@ body{
     height: auto;
     text-align: center;
     box-shadow: 0 0 4rem rgba(0,0,0,.4);
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.53);
 }
 .header h1{
     font-size: 5rem;
     display: block;
     padding: 1rem 10rem;
-    color: rgba(225,225,225,.1);
+    color: rgba(225,225,225,0);
     background-image: url(../image/images-1.jpg);
     /* background-repeat: repeat-x; */
     -webkit-background-clip:text;
