@@ -6,7 +6,7 @@ var modal = document.getElementById('myModal');
 var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementById("close");
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -20,6 +20,7 @@ span.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
+    console.log(event.target)
     if (event.target == modal) {
         modal.style.display = "none";
     }
@@ -31,13 +32,16 @@ $('.close').click(function(){
 	$('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
 });
 $(window).click(function(){
-	$('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+    $('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+    $('#overlay').modal('hide');
 });
+
+
 $('#overlay').modal('show');
 
-setTimeout(function() {
-    $('#overlay').modal('hide');
-}, 2000);
+// setTimeout(function() {
+//     $('#overlay').modal('hide');
+// }, 2000);
 
 /*==========Register Service Worker==========*/
 if('serviceWorker' in navigator){
