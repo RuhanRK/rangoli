@@ -47,7 +47,7 @@ $('#overlay').modal('show');
 if('serviceWorker' in navigator){
   window.addEventListener('load', ()=> {
     navigator.serviceWorker
-      .register('../sw_file.js', {scope: './'})
+      .register('./../sw_file.js', {scope: './'})
         // checking whether it's support browser or not
         .then(res => console.log(`Service Worker Registered: ${res}`))
         .catch(err => console.log(`Something Wrong here ${err}`))
