@@ -39,9 +39,9 @@ $(window).click(function(){
 
 $('#overlay').modal('show');
 
-// setTimeout(function() {
-//     $('#overlay').modal('hide');
-// }, 2000);
+setTimeout(function() {
+    $('#overlay').modal('hide');
+}, 2500);
 
 /*==========Register Service Worker==========*/
 if('serviceWorker' in navigator){

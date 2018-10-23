@@ -31,7 +31,8 @@ const cacheAssets = [
     './bootstrap4/js/bootstrap.js',
     './bootstrap4/js/bootstrap.js.map',
     './bootstrap4/js/bootstrap.min.js',
-    './bootstrap4/js/bootstrap.min.js.map'
+    './bootstrap4/js/bootstrap.min.js.map',
+    './font/LobsterTwo-Regular.ttf'
 ];
 
 // Call Install Event
