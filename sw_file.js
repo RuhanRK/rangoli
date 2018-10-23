@@ -1,4 +1,3 @@
-
 // assign cache version Name
 const cacheName = 'rangoliv1';
 
@@ -7,7 +6,7 @@ const cacheAssets = [
     './',
     './css/style.css',
     './js/jquery-3.3.1.min.js',
-    './js/main.js',
+    './main.js',
     './index.html',
     './image/center.gif',
     './image/images-1.jpg',
@@ -32,8 +31,7 @@ const cacheAssets = [
     './bootstrap4/js/bootstrap.js',
     './bootstrap4/js/bootstrap.js.map',
     './bootstrap4/js/bootstrap.min.js',
-    './bootstrap4/js/bootstrap.min.js.map',
-    './bootstrap4/js/'
+    './bootstrap4/js/bootstrap.min.js.map'
 ];
 
 // Call Install Event
