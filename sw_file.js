@@ -4,13 +4,14 @@ const cacheName = 'rangoliv1';
 
 // target initial file for caching
 const cacheAssets = [
-    'css/style.css',
-    'js/main.js',
-    'index.html',
-    'image/center.gif',
-    'image/images-1.jpg',
-    'image/raspberry.png',
-    'image/favicon.ico'
+    './',
+    './css/style.css',
+    './js/main.js',
+    './index.html',
+    './image/center.gif',
+    './image/images-1.jpg',
+    './image/raspberry.png',
+    './image/favicon.ico'
 ];
 
 // Call Install Event
