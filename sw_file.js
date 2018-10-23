@@ -33,7 +33,7 @@ const cacheAssets = [
     './bootstrap4/js/bootstrap.js.map',
     './bootstrap4/js/bootstrap.min.js',
     './bootstrap4/js/bootstrap.min.js.map',
-    './bootstrap4/js/',
+    './bootstrap4/js/'
 ];
 
 // Call Install Event
